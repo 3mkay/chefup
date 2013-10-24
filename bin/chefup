@@ -12,9 +12,10 @@ TIMESTAMP=/tmp/chef_timestamp
 if [[ ! -e $TIMESTAMP || `cat $TIMESTAMP` -ne `date +%Y-%m-%d` ]]
 then
   echo "Installing prerequisites"
-  gem install --conservative bundler
-  bundle install
-  librarian-chef install
+  #gem install --conservative bundler
+  #bundle install
+  #librarian-chef install
+  curl -L https://www.opscode.com/chef/install.sh | sudo bash
   date +%Y-%m-%d > $TIMESTAMP
 fi
 
