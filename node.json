@@ -28,7 +28,8 @@
     "textwrangler",
     "carboncopycloner",
     "totalterminal",
-    "skitch"
+    "skitch",
+    "expandrive"
   ]
 }
 // vim: ft=javascript
