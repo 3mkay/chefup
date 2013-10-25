@@ -1,0 +1,29 @@
+{
+  "user": {
+    "email": "mike@gir.pm",
+    "name": "Mike King",
+    "dev_path": "/Users/emkay/"
+  },
+  "run_list": [
+    "tig",
+    "drush",
+    "1password.app",
+    "alfred.app",
+    "asepsis",
+    "bartender.app",
+    "chrome.app",
+    "dropbox.app",
+    "evernote",
+    "google_voice_and_video",
+    "firefox",
+    "java",
+    "libreoffice",
+    "sequel_pro",
+    "skype",
+    "spotify.app",
+    "virtualbox",
+    "vagrant",
+    "vlc"
+  ]
+}
+// vim: ft=javascript
