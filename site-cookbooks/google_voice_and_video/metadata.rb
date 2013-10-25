@@ -1,0 +1,8 @@
+name             "Google Voice and Video"
+maintainer       "Mike King"
+maintainer_email "mike@gir.pm"
+license          "Apache 2.0"
+description      "Install Google Voice and Video"
+version          "1.0.0"
+supports         "mac_os_x"
+depends          "dmg"

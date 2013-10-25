@@ -1,5 +1,3 @@
-dmg_properties = node['sprout']['google_voice_and_video']['dmg']
-
 dmg_package 'Google Voice and Video' do
   source dmg_properties['source']
   checksum dmg_properties['checksum']
