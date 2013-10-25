@@ -1,6 +1,3 @@
-vlc_version = node["vlc_version"]
-vlc_checksum = node["vlc_checksum"]
-
 dmg_package "VLC" do
   dmg_name "vlc-#{vlc_version}"
   volumes_dir "vlc-#{vlc_version}"
