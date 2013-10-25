@@ -35,9 +35,8 @@
     "sonos",
     "kindle",
     "opera",
-    "filezilla"
-
-    //"vagrant"
+    "filezilla",
+    "vagrant"
   ]
 }
 // vim: ft=javascript
