@@ -1,8 +1,8 @@
 .DS_Store
 /tmp
-/cookbooks
-/.ruby-version
-/node.json
+#/cookbooks
+#/.ruby-version
+#/node.json
 *.sw?
-/Cheffile
+#/Cheffile
 /Cheffile.lock
