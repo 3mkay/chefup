@@ -1,7 +1,3 @@
-include_recipe "sprout-osx-apps::virtualbox"
-
-dmg_properties = node['sprout']['vagrant']['dmg']
-
 dmg_package "Vagrant" do
   source   dmg_properties['source']
   checksum dmg_properties['checksum']
