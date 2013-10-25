@@ -24,7 +24,8 @@
     "sugarsync",
     "virtualbox",
     "vagrant",
-    "vlc"
+    "vlc",
+    "textwrangler"
   ]
 }
 // vim: ft=javascript
