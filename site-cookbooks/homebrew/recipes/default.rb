@@ -1,7 +1,7 @@
 return unless node["platform"] == "mac_os_x"
 
 include_recipe "site-cookbooks::user_owns_usr_local"
-include_recipe "site-cookbooks::bash_it"
+#include_recipe "site-cookbooks::bash_it"
 
 # Do not be tempted to use the git-resource to check out
 # homebrew directly into /usr/local; it will fail if
