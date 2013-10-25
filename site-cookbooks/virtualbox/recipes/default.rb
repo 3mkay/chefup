@@ -1,8 +1,6 @@
 dmg_package "VirtualBox" do
-  source dmg_properties['source']
-  checksum dmg_properties['checksum']
+  source "http://download.virtualbox.org/virtualbox/4.3.0/VirtualBox-4.3.0-89960-OSX.dmg"
+  type 'dmg'
   action :install
   owner node['current_user']
-  type "pkg"
-  package_id "org.virtualbox.pkg.virtualbox"
 end
