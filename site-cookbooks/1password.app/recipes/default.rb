@@ -1,8 +1,8 @@
-directory "#{ENV['HOME']}/Applications" do
-  mode 00755
-end
+#directory "/Applications" do
+#  mode 00755
+#end
 
-unless File.exists?("#{ENV['HOME']}/Applications/1Password.app") || File.exists?("/Applications/1Password.app")
+unless File.exists?("/Applications/1Password 4.app") || File.exists?("/Applications/1Password 4.app")
 
   remote_file "#{Chef::Config[:file_cache_path]}/1password.zip" do
     source "http://i.agilebits.com/dist/1P/mac4/1Password-4.0.2.zip"
@@ -18,7 +18,7 @@ unless File.exists?("#{ENV['HOME']}/Applications/1Password.app") || File.exists?
 
   ruby_block "test to see if 1Password.app was installed" do
     block do
-      raise "1Password.app was not installed" unless File.exists?("#{ENV['HOME']}/Applications/1Password.app")
+      raise "1Password.app was not installed" unless File.exists?("#{ENV['HOME']}/Applications/1Password 4.app")
     end
   end
 end
