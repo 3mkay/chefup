@@ -1,7 +1,5 @@
 dmg_package "VLC" do
-  dmg_name "vlc-#{vlc_version}"
-  volumes_dir "vlc-#{vlc_version}"
-  source "http://download.videolan.org/vlc/#{vlc_version}/macosx/vlc-#{vlc_version}.dmg"
+  source "http://mirrors.neterra.net/vlc/vlc/2.1.0/macosx/vlc-2.1.0.dmg"
   checksum vlc_checksum
   action :install
   owner node['current_user']
