@@ -21,7 +21,6 @@
     "spotify.app",
     "sugarsync",
     "virtualbox",
-    "vagrant",
     "vlc",
     "textwrangler",
     "carboncopycloner",
@@ -35,7 +34,9 @@
     "postbox",
     "sonos",
     "kindle",
-    "opera"
+    "opera",
+
+    "vagrant"
   ]
 }
 // vim: ft=javascript
