@@ -1,3 +1,3 @@
-package 'tig' do
+package 'drush' do
   action :install
 end
