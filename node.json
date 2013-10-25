@@ -34,9 +34,9 @@
     "postbox",
     "sonos",
     "kindle",
-    "opera",
+    "opera"
 
-    "vagrant"
+    //"vagrant"
   ]
 }
 // vim: ft=javascript
