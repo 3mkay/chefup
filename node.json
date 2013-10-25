@@ -26,7 +26,8 @@
     "vagrant",
     "vlc",
     "textwrangler",
-    "carboncopycloner"
+    "carboncopycloner",
+    "totalterminal"
   ]
 }
 // vim: ft=javascript
