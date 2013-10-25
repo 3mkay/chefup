@@ -33,7 +33,8 @@
     "forklift",
     "phpstorm",
     "postbox",
-    "sonos"
+    "sonos",
+    "kindle"
   ]
 }
 // vim: ft=javascript
