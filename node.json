@@ -25,7 +25,8 @@
     "virtualbox",
     "vagrant",
     "vlc",
-    "textwrangler"
+    "textwrangler",
+    "carboncopycloner"
   ]
 }
 // vim: ft=javascript
