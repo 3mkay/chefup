@@ -1,6 +1,3 @@
-dmg_package "bettertouchtool" do
+zip_app_package "BetterTouchTool" do
   source "http://boastr.net/releases/BetterTouchTool.zip"
-  type "zip"
-  action :install
-  owner node['current_user']
 end
