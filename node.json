@@ -8,8 +8,8 @@
     "tig",
     "drush",
     "1password.app",
-    "alfred.app",
-    "bartender.app",
+    "alfred2",
+    "bartender",
     "chrome.app",
     "dropbox.app",
     "evernote",
@@ -35,7 +35,6 @@
     "sonos",
     "kindle",
     "opera",
-    "filezilla",
     "vagrant"
   ]
 }

@@ -15,7 +15,9 @@ then
   #gem install --conservative bundler
   #bundle install
   #librarian-chef install
-  curl -L https://www.opscode.com/chef/install.sh | sudo bash
+# Commenting this line to add one which is Mavericks compliant
+#  curl -L https://www.opscode.com/chef/install.sh | sudo bash
+curl -L https://www.opscode.com/chef/install.sh | sed 's/10.8/10.9/' | sudo bash
   date +%Y-%m-%d > $TIMESTAMP
 fi
 
