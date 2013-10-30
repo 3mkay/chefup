@@ -5,6 +5,7 @@
     "dev_path": "/Users/emkay/"
   },
   "run_list": [
+    "homebrew",
     "tig",
     "drush",
     "1password.app",
@@ -14,7 +15,6 @@
     "dropbox.app",
     "evernote",
     "firefox",
-    "java",
     "libreoffice",
     "sequel_pro",
     "skype",
