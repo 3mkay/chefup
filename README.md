@@ -9,6 +9,7 @@ Prerequisites
 -------------
 * Install the lastest OS X
 * Install XCode from App Store
+* Make sure that Java is installed (run `java --version` at command line)
 
 Setup
 -----
@@ -21,11 +22,6 @@ or
 
     curl -L https://github.com/emkay/chefup/tarball|tar xz
 
-Copy and update the example files
-
-    cp node.json.example node.json
-    cp Cheffile.example Cheffile
-
-And run chefup:
+Run chefup:
 
     cd ~/chefup && bin/chefup
