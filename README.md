@@ -15,11 +15,11 @@ Setup
 
 Fetch this repo
 
-    git clone https://github.com/mynewsdesk/chefup.git
+    git clone https://github.com/emkay/chefup.git
 
 or
 
-    curl -L https://github.com/mynewsdesk/chefup/tarball|tar xz
+    curl -L https://github.com/emkay/chefup/tarball|tar xz
 
 Copy and update the example files
 
